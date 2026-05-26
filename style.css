@@ -1,0 +1,125 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 20px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+
+}
+
+.pimg1 {
+    background-image: url(image1.jpg);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(image2.jpg);
+    min-height: 400px;
+
+}
+
+.pimg3 {
+    background-image: url(image3.jpg);
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url(image1.jpg);
+    min-height: 100%;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallex {
+
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    width: 100%;
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parallex span {
+    background-color: rgba(1, 1, 1, .8);
+    padding: 20px;
+}
+
+.nature {
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    width: 100%;
+    font-size: 38px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.deep{
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.coding {
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    width: 100%;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nature span {
+    background-color: rgba(1, 1, 1, .3);
+    padding: 20px;
+}
+.deep span {
+    background-color: rgba(1, 1, 1, .2);
+    padding: 20px;
+}
+.coding span {
+    background-color: rgba(1, 1, 1, .6);
+    padding: 20px;
+}
+
+.set {
+    text-align: center;
+    padding: 50px 80px;
+
+    color: #F4F4F4;
+    background-color: #313534;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.one {
+    background-color: #F4F4F4;
+    color: #666666;
+}

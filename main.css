@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+}
+
+.mainbox{
+    background-image: url(vintage-camera-display-stockcake.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: .99;
+}
+.btn_one{
+    font-size: 40px;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    color: rgb(1, 0, 9);
+    line-height: 60px;
+}
+.sidebar{
+    position: fixed;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(0, 0, 0,.8);
+    box-shadow: 0px 2px 10px 4px rgb(62, 55, 55);
+}  
+.sidebar .logo{
+    position: absolute;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    line-height: 60px;
+    width: 100%;  
+} 
+.sidebar .logo a{
+     text-decoration: none;
+     color: #ffffff;
+     position: absolute;
+     font-size: 20px;
+     font-weight: 500;
+     left: 30px;
+     top: 10px;
+}
+.sidebar .btn_two{
+    font-size: 30px;
+    position: absolute;
+    left: 250px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 60px;
+     top: 10px;
+}
+.sidebar .menu{
+    color: #8d8181;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.sidebar .menu ul{
+    list-style: none;
+   
+}
+.sidebar .menu a{
+    color: #8d8181;
+    text-decoration: none;
+
+}
+.sidebar .media{
+    color: #8d8181;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.sidebar .media i:hover{
+    color: #ffffff;
+}
+.sidebar .menu .o :hover{
+    color: #ffffff;
+}
+
+#check{
+    display: none;
+}
+.sidebar .btn_two i{
+    cursor: pointer;
+}
+.sidebar .media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar{
+    left: 0;
+    transition: all 0.5s ease;
+}
+#check:checked ~ .btn_one i {
+    opacity: 0;
+    
+}
+.todo{
+    background-color: blue;
+}

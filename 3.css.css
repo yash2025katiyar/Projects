@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.text {
+    font-size: 40px;
+    color: azure;
+    margin: 0 auto;
+max-width: 900px;
+padding-top: 50px;
+    font-weight: 100;
+    font-family: "lato", sans-serif;
+}
+
+.text span {
+    font-size: 30px;
+}
+
+.textt {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 93px 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 100;
+    background-color: #161619;
+    letter-spacing: 3px;
+    line-height: 100%;
+    font-family: "lato", sans-serif;
+}
+
+.textt span {
+    font-size: 100px;
+    padding-top: 40px;
+}
+.third{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card1 {
+  border: 1px solid grey;
+  box-shadow:0px 4px 4px #887e7e;
+margin: 130px 0px;
+  width: 280px;
+  height: 400px;
+  border-radius: 9px;
+   font-weight: 100;
+    font-family: "lato", sans-serif;
+    transition: .3s;
+}
+@media (max-width: 440px) {
+            .third{
+               flex-wrap: wrap;
+               margin: none;
+ }
+        }
+
+.card1:hover{
+    transform: scale(1.04);
+    box-shadow: none;
+    cursor: pointer;
+    box-shadow:0px 4px 4px #040404;
+    transition: .3s;
+}
+.img img{
+    width: 278px;
+    border-radius: 5px;
+}
+.content h2{
+    font-size: 20px;
+    padding: 10px;
+}
+.content p{
+    font-size: 12px;
+    padding:0px 15px;
+}
+.four{
+display: flex;
+}
+.box1{
+    background-color: #515603;
+    color: #ffffff;
+width: 770px;
+height: 378px;
+ font-weight: 100;
+    font-family: "lato", sans-serif;
+}
+.box1 h1{
+    font-size: 40px;
+    padding: 30px;
+}
+.box1 p{
+    font-size: 17px;
+    padding: 0px 30px;
+}
+.box2{
+    background-color: #722300;
+    color: #ffffff;
+    width: 770px;
+height: 378px;
+ font-weight: 100;
+    font-family: "lato", sans-serif;
+}
+.box2 h1{
+    font-size: 40px;
+    padding: 30px;
+}
+.box2 p{
+    font-size: 17px;
+    padding: 0px 30px;
+}
+.five{
+     font-weight: 50px;
+    font-family: "lato", sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
