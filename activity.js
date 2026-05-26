@@ -1,8 +1,8 @@
 let btn = document.querySelector("button");
 btn.addEventListener("click", function () {
-    let h3 = document.querySelector("h3");
+    let h1 = document.querySelector("h1");
     let randomColor = getRandomColor();
-    h3.innerText = `Random color is ${randomColor}`;
+    h1.innerText = `Random color is ${randomColor}`;
     console.log("Color Updated!");
     let div = document.querySelector("div");
     div.innerText = "Colors World!";

@@ -1,0 +1,26 @@
+.todo{
+    background-color: aqua;
+    height: 70vh;
+    width: 30%;
+    border: 3px solid gray ;
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px;
+}
+.todo h1{
+    text-align: center;
+}
+.inp{
+    border-radius: 10px;
+    font-size: 19px;
+}
+.btn{
+    border-radius: 15px;
+    padding: 7px;
+}
+.delete{
+    border-radius: 15px;
+}
+.todo ul li{
+    font-size:20px;
+}
